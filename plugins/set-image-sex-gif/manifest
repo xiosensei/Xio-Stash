@@ -1,0 +1,16 @@
+id: set-image-sex-gif
+name: Set Image Sex.com Gif
+metadata: {}
+version: 0.0.15
+date: "2025-12-19 15:42:59"
+requires: []
+source_repository: https://github.com/xiosensei/Xio-Stash/tree/main/plugins/set-image-sex-gif
+files:
+- index.js
+- plugin/requirements.txt
+- plugin/log.py
+- plugin/plugin.py
+- plugin/stash.py
+- plugin/scraper.py
+- set-image-sex-gif.yml
+- main.css
