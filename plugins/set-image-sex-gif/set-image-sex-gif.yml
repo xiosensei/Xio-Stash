@@ -1,0 +1,22 @@
+name: Set Image Sex.com Gif
+description: Adds a 'Set Cover' option and plugin tasks for setting Gifs from Sex.com
+version: 0.0.15
+url: https://github.com/xiosensei/Xio-Stash/tree/main/plugins/set-image-sex-gif
+ui:
+  css:
+  - main.css
+  javascript:
+  - index.js
+settings:
+  show_edit_group:
+    displayName: Show button when editing group
+    type: BOOLEAN
+
+exec:
+  - python
+  - "{pluginDir}/plugin/plugin.py"
+interface: raw
+tasks:
+  - name: Set Cover for all blank tags
+    defaultArgs:
+      mode: setTags
